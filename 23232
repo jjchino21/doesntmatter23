@@ -1,5 +1,6 @@
 local player = game.Players.LocalPlayer
 
+if player:IsInGroup(16298833) then
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/topillesrevenge/Streamable-Silent/main/Side"))()
 Aiming.TeamCheck(false)
 
@@ -90,4 +91,4 @@ RunService:BindToRenderStep("AimLock", 0, function()
     else
 setclipboard("https://discord.gg/YyVb8X9CDA")
 wait(1)
-end
+        end
